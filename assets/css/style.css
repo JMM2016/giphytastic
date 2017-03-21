@@ -1,0 +1,18 @@
+button {
+	margin: 5px;	
+}
+
+#tv-input {
+	margin: 5px;
+	margin-left: -1px;
+	margin-top: 0px;
+	width: 100%;
+}
+
+#findShow, #gifs-here {
+	margin-bottom: 5px;	
+}
+
+p {
+	margin-top: 10px;
+}

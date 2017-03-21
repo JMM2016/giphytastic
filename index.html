@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">	
+	<script src="assets\javascript\app.js"></script>	
+	<link rel="stylesheet" type="text/css" href="assets\css\style.css">	
+	<title>Giphytastic Gifdom</title>
+</head>
+<body>
+
+<div class="container">
+	<div id="buttons-here" class="row">  </div>
+	<div id="main" class="row">
+		<div id="gifs-here" class="col-xs-9 col-sm-9 col-md-8 col-lg-7">	</div>
+		
+		<div id="search" class="col-xs-3 col-sm-3 col-md-4 col-lg-5"> 
+			<form id="tv-form">
+		    <label for="tvInput">Add a TV show</label><br>
+		    <input type="text" id="tv-input"><br>
+		    
+		    <!-- This button will trigger an AJAX call -->
+		    <input id="findShow" type="submit" value="submit" class="btn btn-primary">
+		  </form>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
